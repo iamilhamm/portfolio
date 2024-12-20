@@ -1,0 +1,444 @@
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: rgb(214, 191, 177);
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png'),
+    url('—Pngtree—pink\ lily_1777440\ \(1\).png');
+    
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: 
+    2% 5%, 10% 15%, 20% 25%, 30% 35%, 40% 45%, 50% 55%, 
+        60% 65%, 70% 75%, 80% 85%, 90% 95%, 5% 20%, 15% 30%, 
+        25% 40%, 35% 50%, 45% 60%, 55% 70%, 65% 80%, 75% 90%, 
+        85% 10%, 95% 20%, 5% 35%, 15% 45%, 25% 55%, 35% 65%, 
+        45% 75%, 55% 85%, 65% 95%, 75% 10%, 85% 20%, 95% 30%, 
+        10% 50%, 20% 60%, 30% 70%, 40% 80%, 50% 90%, 60% 10%, 
+        70% 20%, 80% 30%, 90% 40%, 10% 10%, 20% 20%, 30% 30%, 
+        40% 40%, 50% 50%, 60% 60%, 70% 70%, 80% 80%, 90% 90%;
+    
+    opacity: 0.48;
+    pointer-events: none; 
+    z-index: -1;
+  } 
+
+
+h1, h2, h3{
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* NAVBAR */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 0 50px;
+    height: 80px;
+  }
+  
+  nav .left a {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Bodoni Moda', serif;
+  }
+  
+  nav .right a {
+    color: white;
+    margin: 0 10px;
+    font-family: 'Bodoni Moda', serif;
+  }
+  
+  nav .right a:last-child {
+    color: rgb(214, 191, 177);
+    background-color:white;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+  
+  nav .right a span {
+    margin-left: 5px;
+  }
+  
+  /* SECTION 1: Hero */
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 50px 0;
+    margin-bottom: 200px;
+    gap:50px;
+    font-family: 'Bodoni Moda', serif; 
+  }
+  
+  .hero-section .text {
+    flex: 5;
+  }
+  
+  .hero-section .text h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-section .text .links {
+    margin-top: 50px;
+  }
+  
+  .hero-section .text .links a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: .1s;
+  }
+  
+  .hero-section .text .links a:hover {
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .hero-section .headshot {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
+
+.hero-section .headshot img {
+    max-width: 100%;
+    height: auto;
+    width: 350px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-section .headshot img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+  
+
+  .projects-section {
+    padding: 4rem 2rem;
+    background-color:;
+  }
+  
+  .projects-section h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .project {
+    background:rgb(214, 191, 177);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 2px groove white;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .project-details {
+    padding: 1.5rem;
+  }
+  
+  .project-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-details p {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+    font-family: 'Bodoni Moda', serif;
+  }
+  
+  .project-details .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background:rgb(214, 191, 177);
+    background-color: ;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-details .btn:hover {
+    background-color: white;
+  }
+
+  /* SECTION 2: Skills */
+  .skills-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+  }
+  
+  .skills-section h2 {
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .skills-section .text {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Bodoni Moda', serif;
+  }
+  
+  .skills-section .cells {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .skills-section .cells .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+    width: 200px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1.5px solid white;
+    border-radius: 5px;
+  }
+  
+  .skills-section .cells .cell img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 2px;
+  }
+  
+  .skills-section .cells .cell span {
+    font-size: 18px;
+  }
+  
+  
+  /* SECTION 4: Contact */
+  .contact-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+    text-align:center;
+    font-family:"Bodoni Moda", serif
+  }
+  
+  .contact-section h2{
+    font-size: 50px;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700; 
+    margin-bottom: 20px;
+    text-align:;
+  }
+  
+  .contact-section .group {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .contact-section .group .text, .bodoni-moda-contact{
+    flex: 3;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .contact-section .group form {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-section .group form input,
+  .contact-section .group form textarea {
+    font-family:"Bodoni Moda", serif ;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    resize: none;
+  }
+  
+  .contact-section .group form button {
+    font-size: 16px;
+    font-family:"Bodoni Moda", serif;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 0.2rem;
+    border: solid white;
+    height: 50px;
+    cursor: pointer;
+    transition: .1s;
+  }
+  
+  .contact-section .group form button:hover {
+    filter: brightness(.9);
+  }
+  
+  @media (max-width: 850px) {
+    /* SECTION 1: Hero */
+    .hero-section .text h2 {
+      font-size: 35px;
+    }
+  }
+  
+  @media (max-width: 740px) {
+    /* SECTION 1: Hero */
+    .hero-section {
+      flex-direction: column-reverse;
+    }
+  
+    .hero-section .headshot img {
+      width: 300px;
+    }
+
+    /* SECTION 4: Contact */
+    .contact-section .group {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    /* NAVBAR */
+    nav {
+      padding: 0 20px;
+    }
+  
+    nav .right a {
+      font-size: 22px
+      ;
+    }
+  
+    nav .right a:last-child {
+    
+    background-color: transparent;
+    padding: 0;
+    }
+  
+    nav .right a span {
+      display: none;
+    }
+  
+    /* SECTION 1: Hero */
+    .hero-section {
+      padding: 0 20px;
+    }
+  
+    .hero-section .text h2 {
+      font-size: 30px;
+    }
+  
+    /* SECTION 2: Skills */
+    .skills-section {
+      padding: 0 20px;
+    }
+  
+    .skills-section .cells .cell span {
+      font-size: 16px;
+    }
+  
+  
+    /* SECTION 4: Contact */
+    .contact-section {
+      padding: 0 20px;
+    }
+  }
+
+
+
